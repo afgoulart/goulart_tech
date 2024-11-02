@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>André Filipe de Moraes Goulart - Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    /* Estilos Personalizados */
+    .project-img img {
+      box-shadow: 1px 1px 8px white;
+      transition: 1s;
+    }
+    .project-img img:hover {
+      transform: skew(10deg, 10deg);
+      box-shadow: 10px 10px 8px rgb(159, 184, 45);
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    .contact {
+      padding: 50px;
+      text-align: center;
+    }
+    .contact .heading {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .contact .heading span {
+      color: #00aaff;
+    }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact-item {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 600px;
+      text-align: left;
+    }
+    .contact-item h3 {
+      font-size: 20px;
+      margin: 0 0 10px;
+      color: #00aaff;
+    }
+    .contact-item a {
+      font-size: 18px;
+      color: #ffffff;
+      text-decoration: none;
+      word-wrap: break-word;
+    }
+    .contact-item a:hover {
+      color: #00aaff;
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">André Filipe de Moraes Goulart</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Experience</a>
+        <a href="#skill">Skill</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>André Filipe de Moraes Goulart</span></h1>
+        <div class="text-animate">
+          <h3>Senior Software Engineer</h3>
+        </div>
+        <p>
+          I am a Senior Software Engineer with over 10 years of experience in
+          web development. Specializing in technologies like NodeJS, React, Vue,
+          and TypeScript, I create modern, responsive interfaces and strive for
+          excellence in everything I do.
+        </p>
+        <div class="btn-box">
+          <a href="mailto:afgoulart.rj@gmail.com" target="_blank" class="btn"
+            >Contact</a
+          >
+          <a href="#" target="_blank" class="btn">Resume</a>
+        </div>
+      </div>
+      <div class="home-sci">
+        <a href="mailto:afgoulart.rj@gmail.com" target="_blank"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/afgoulart" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        I'm André, a Senior Software Engineer driven by a passion for creating
+        sustainable solutions and a continuous learning mindset. My experience
+        spans over a decade in web development, and my expertise lies in
+        technologies like NodeJS, React, Vue, and TypeScript.
+      </p>
+    </section>
+
+    <section class="skill" id="skill">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <ul>
+        <li>
+          Languages & Technologies: React.js, Vue.js, NodeJS, TypeScript,
+          JavaScript, HTML, CSS, Tailwind CSS, AngularJS, Express
+        </li>
+        <li>Tools & Methodologies: Npm, Git, CI/CD, Automated Testing</li>
+        <li>Cloud Platforms: AWS (Architecting on AWS)</li>
+      </ul>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Experience</span></h2>
+      <h3>Professional Experiences</h3>
+      <p>Highlights of my career:</p>
+      <ul>
+        <li>
+          <strong>Calindra (Senior Frontend Engineer)</strong> - July 2023 -
+          Present: Enhanced e-commerce for Tania Bulhões, optimizing UX and
+          performance.
+        </li>
+        <li>
+          <strong>Desygner (Senior Frontend Engineer)</strong> - Dec 2023 - May
+          2024: Developed interfaces with React, Vue, and Node.js.
+        </li>
+        <!-- Additional experience here -->
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <h3>Email:</h3>
+          <a target="_blank" href="mailto:afgoulart.rj@gmail.com"
+            >afgoulart.rj@gmail.com</a
+          >
+        </div>
+        <div class="contact-item">
+          <h3>LinkedIn:</h3>
+          <a target="_blank" href="https://www.linkedin.com/in/afgoulart"
+            >linkedin.com/in/afgoulart</a
+          >
+        </div>
+        <div class="contact-item">
+          <h3>Phone:</h3>
+          <a target="_blank" href="tel:+5521985364597">+55 (21) 98536-4597</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 by André Filipe de Moraes Goulart | All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
