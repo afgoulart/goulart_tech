@@ -1,3 +1,5 @@
+import WhatsAppForm from '@/components/WhatsAppForm';
+
 const COMPANY = {
   name: 'Goulart Consultoria em TI',
   legalName: 'Goulart Consultoria em TI LTDA',
@@ -294,21 +296,25 @@ export default function Home() {
               Vamos construir algo juntos?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-[var(--text-muted)]">
-              Conte o desafio do seu negócio. Respondemos com uma proposta clara de como a
-              tecnologia pode ajudar.
+              Conte o desafio do seu negócio. Preencha os campos abaixo e continue a
+              conversa direto no WhatsApp.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+
+            <WhatsAppForm />
+
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm">
               <a
                 href={`mailto:${COMPANY.email}?subject=Contato%20pelo%20site`}
-                className="rounded-lg bg-[var(--brand-strong)] px-6 py-3 font-medium text-white transition-colors hover:bg-[var(--brand)]"
+                className="text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
               >
                 {COMPANY.email}
               </a>
+              <span className="text-[var(--border)]">·</span>
               <a
                 href={COMPANY.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg border border-[var(--border)] px-6 py-3 font-medium text-[var(--text)] transition-colors hover:bg-[var(--bg-soft)]"
+                className="text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
               >
                 LinkedIn
               </a>
