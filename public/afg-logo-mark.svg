@@ -1,0 +1,16 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AFGoulart">
+  <g fill="none" stroke-linecap="round">
+    <path d="M135.3 32 A82 82 0 1 0 170.9 164.9" stroke="#233B5E" stroke-width="14"/>
+    <path d="M144.8 71.4 A52 52 0 1 0 144.8 148.6" stroke="#233B5E" stroke-width="13"/>
+    <line x1="160" y1="58" x2="114" y2="112" stroke="#84CBDB" stroke-width="17"/>
+    <line x1="104" y1="114" x2="128" y2="176" stroke="#84CBDB" stroke-width="16"/>
+  </g>
+  <circle cx="128" cy="20" r="8" fill="#233B5E"/>
+  <circle cx="186" cy="138" r="8" fill="#233B5E"/>
+  <circle cx="50" cy="126" r="7" fill="#84CBDB"/>
+  <circle cx="160" cy="58" r="13" fill="#84CBDB"/>
+  <circle cx="130" cy="180" r="16" fill="#84CBDB"/>
+  <circle cx="104" cy="114" r="20" fill="#84CBDB"/>
+  <circle cx="120" cy="120" r="11" fill="#233B5E"/>
+  <circle cx="114" cy="115" r="10" fill="#84CBDB"/>
+</svg>
