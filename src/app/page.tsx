@@ -4,6 +4,7 @@ const COMPANY = {
   cnpj: '51.399.263/0001-56',
   email: 'afgoulart.rj@gmail.com',
   city: 'Rio de Janeiro — RJ',
+  linkedin: 'https://www.linkedin.com/company/goulart-ti',
   year: new Date().getFullYear(),
 };
 
@@ -304,7 +305,7 @@ export default function Home() {
                 {COMPANY.email}
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href={COMPANY.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border border-[var(--border)] px-6 py-3 font-medium text-[var(--text)] transition-colors hover:bg-[var(--bg-soft)]"
@@ -349,6 +350,16 @@ export default function Home() {
                       className="transition-colors hover:text-[var(--text)]"
                     >
                       {COMPANY.email}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={COMPANY.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-colors hover:text-[var(--text)]"
+                    >
+                      LinkedIn
                     </a>
                   </li>
                   <li>{COMPANY.city}</li>
